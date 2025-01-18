@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BetterVulcan Extension</title>
+    <link rel="icon" href="logo.png" type="image/png"> <!-- Favicon -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+        }
+
+        .container {
+            min-height: 100vh;
+        }
+
+        .logo {
+            max-width: 150px;
+            margin-bottom: 20px;
+        }
+
+        .button {
+            background-color: #4CAF50;
+            border-radius: 50px;
+            padding: 12px 30px;
+            font-weight: bold;
+            font-size: 18px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: all 0.3s ease;
+        }
+
+        .button img {
+            max-width: 25px;
+            margin-right: 10px;
+        }
+
+        .button:hover {
+            background-color: #45a049;
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+
+<body class="bg-gray-900 text-white">
+    <div class="container flex flex-col flex justify-center items-center min-h-screen px-4 justify-center items-center p-4">
+        <img src="logo.png" alt="BetterVulcan Logo" class="logo">
+        <h1 class="text-5xl font-extrabold text-center text-indigo-400 mb-6">
+            betterVulkan Userscript
+        </h1>
+        <p class="text-xl text-center max-w-lg mb-6">
+            betterVulkan to userskrypt, który usuwa niepotrzebne elementy i wprowadza ciemny motyw. Zainstaluj go teraz!
+        </p>
+        <a href="https://update.greasyfork.org/scripts/524160/betterVulkan.user.js" target="_blank">
+            <button class="button text-white">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/c/c0/Tampermonkey_logo.svg" alt="Tampermonkey Logo">
+                Dodaj do Tampermonkey
+            </button>
+        </a>
+    </div>
+</body>
+
+</html>
